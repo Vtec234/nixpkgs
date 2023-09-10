@@ -7,7 +7,7 @@ name: Check pkgs/by-name
 on: pull_request
 
 # The tool doesn't need any permissions, it only outputs success or not based on the checkout
-permissions: {}
+permissions: read-all
 
 jobs:
   check:
